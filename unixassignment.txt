@@ -1,0 +1,22 @@
+1.mkdir test
+2.cat employeelist
+  -cat skillset
+3.mkdir test2
+  -ln -s skillset myfile
+  -rm myfile , ls -i hardlink, ls -i skillset
+  -These are the two different methods to refer to a file in the harddrive.
+   symbolic links refers directly to the file which refers to inode.
+   a harddisk isa copy of a file that refers to directly ti inode of a file.
+4. chmod user2 +rw 
+   -ls -l
+5. chmod g -w filename
+   -ls -l
+6.chmod o -w foldername
+  - run test -w
+7. chmod -w filename
+  -ls -l
+8.chgrp user3 filename
+  -ls -l flename
+9.chown user5 filename
+  -ls -l filename
+10. wc filename
